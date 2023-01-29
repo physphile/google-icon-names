@@ -1,9 +1,8 @@
 {
-  "name": "google-icons-names",
+  "name": "google-icon-names",
   "version": "1.0.0",
-  "description": "Constants for Google Material Symbols names",
+  "description": "Constants for Google Material Icons and Symbols names",
   "main": "names.ts",
-  "private": "false",
   "files": [
     "names.ts"
   ],
@@ -15,5 +14,18 @@
     "email": "netsvetaev.mgn@gmail.com",
     "url": "https://github.com/physphile"
   },
+  "repository": {
+    "url": "https://github.com/physphile/google-icons-names"
+  },
+  "keywords": [
+    "material-icons",
+    "material-design-icons",
+    "material-symbols",
+    "material-design-symbols",
+    "material-design",
+    "icons",
+    "material",
+    "google"
+  ],
   "license": "MIT"
 }
