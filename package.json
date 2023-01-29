@@ -1,0 +1,19 @@
+{
+  "name": "google-icons-names",
+  "version": "1.0.0",
+  "description": "Constants for Google Material Symbols names",
+  "main": "names.ts",
+  "private": "false",
+  "files": [
+    "names.ts"
+  ],
+  "scripts": {
+    "generate": "node scripts/fetch.mjs && node scripts/generate.mjs"
+  },
+  "author": {
+    "name": "physphile",
+    "email": "netsvetaev.mgn@gmail.com",
+    "url": "https://github.com/physphile"
+  },
+  "license": "MIT"
+}
