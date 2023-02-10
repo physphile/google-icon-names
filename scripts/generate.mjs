@@ -2,7 +2,8 @@ import { open } from 'node:fs/promises';
 import { appendFile, unlink } from 'node:fs';
 import { rawNamesPath } from './fetch.mjs';
 
-const namesPath = './names.ts';
+const namesPath = './index.ts';
+const typePath = './index.d.ts';
 
 const file = await open(rawNamesPath);
 
@@ -25,6 +26,11 @@ for await (const line of file.readLines()) {
     appendFile(namesPath, `export const ${name} = '${rawName}';\n`, (err) => {
         if (err) console.error(err.message)
         else console.log(`${name} was added`)
+    });
+
+    appendFile(typePath, `export const ${name}: string;\n`, (err) => {
+        if (err) console.error(err.message);
+        else console.log(`type ${name} was added`);
     })
 
     hash.push(name);
