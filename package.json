@@ -1,6 +1,6 @@
 {
   "name": "google-icon-names",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Constants for Google Material Icons and Symbols names",
   "main": "names.ts",
   "files": [
