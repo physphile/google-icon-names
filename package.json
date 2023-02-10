@@ -2,9 +2,9 @@
   "name": "google-icon-names",
   "version": "1.0.4",
   "description": "Constants for Google Material Icons and Symbols names",
-  "main": "names.ts",
   "files": [
-    "names.ts"
+    "index.ts",
+    "index.d.ts"
   ],
   "scripts": {
     "generate": "node scripts/fetch.mjs && node scripts/generate.mjs"
